@@ -1,0 +1,16 @@
+server:
+  port: 8080
+#  ssl:
+#    enabled: true
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:DBNAME
+    username: root
+    password: root
+    driver-class-name: oracle.jdbc.OracleDriver
+  jpa:
+    show-sql: true
+    database-platform: org.hibernate.dialect.Oracle12cDialect
+logging:
+  level:
+    com.demo: debug
