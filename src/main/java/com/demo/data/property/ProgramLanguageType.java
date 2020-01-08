@@ -1,4 +1,4 @@
-package com.demo.entity.property;
+package com.demo.data.property;
 
 public enum ProgramLanguageType {
 

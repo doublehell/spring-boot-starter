@@ -1,9 +1,9 @@
-package com.demo.entity.converter;
+package com.demo.data.converter;
 
 import javax.persistence.AttributeConverter;
 import javax.persistence.Converter;
 
-import com.demo.entity.property.ProgramLanguageType;
+import com.demo.data.property.ProgramLanguageType;
 
 @Converter
 final public class ProgramLanguageConverter implements AttributeConverter<ProgramLanguageType, String> {

@@ -1,4 +1,4 @@
-package com.demo.entity;
+package com.demo.data.entity;
 
 import java.util.Date;
 import java.util.Set;
@@ -14,8 +14,7 @@ import javax.persistence.Table;
 
 import org.hibernate.annotations.DynamicUpdate;
 
-import com.demo.entity.converter.BooleanConverter;
-//import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.demo.data.converter.BooleanConverter;
 
 import lombok.Getter;
 import lombok.Setter;

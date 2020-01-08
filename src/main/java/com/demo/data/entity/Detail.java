@@ -1,4 +1,4 @@
-package com.demo.entity;
+package com.demo.data.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Convert;
@@ -8,9 +8,8 @@ import javax.persistence.Table;
 
 import org.hibernate.annotations.DynamicUpdate;
 
-import com.demo.entity.converter.ProgramLanguageConverter;
-//import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.demo.entity.property.ProgramLanguageType;
+import com.demo.data.converter.ProgramLanguageConverter;
+import com.demo.data.property.ProgramLanguageType;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -5,7 +5,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
-import com.demo.utils.DateUtil;
+import com.demo.common.utils.DateUtil;
 import com.fasterxml.jackson.annotation.JsonFormat;
 
 import lombok.Getter;

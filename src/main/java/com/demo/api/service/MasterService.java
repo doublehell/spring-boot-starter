@@ -14,9 +14,9 @@ import org.springframework.util.StringUtils;
 import com.demo.api.dto.MasterData;
 import com.demo.api.exception.DuplicateRecordException;
 import com.demo.api.exception.NotFoundRecordException;
-import com.demo.entity.Master;
-import com.demo.repository.MasterRepository;
-import com.demo.utils.DateUtil;
+import com.demo.common.utils.DateUtil;
+import com.demo.data.entity.Master;
+import com.demo.data.repository.MasterRepository;
 
 
 @Service
